@@ -2,96 +2,105 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Shutian Luo
+    - name: Current Position
+      value: Postdoctoral Researcher, Department of Computer Science, University of Virginia
+    - name: Location
+      value: Charlottesville, VA, USA
+    - name: Email
+      value: ksy8xs@virginia.edu
     - name: Languages
-      value: English, German
+      value: English, Chinese (Mandarin)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Computer Application Technology
+      institution: University of Chinese Academy of Sciences, Beijing, China
+      year: 2016 – 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Dissertation on intelligent resource management for cloud-native microservices workloads.
+        - Advisor – Prof. Chengzhong Xu.
+    - title: B.Eng. in Electronics Engineering
+      institution: Shenzhen University, Shenzhen, China
+      year: 2012 – 2016
       description:
-        - Description 1.
-        - Description 2.
+        - Graduated with Postgraduate Recommendation (1 out of 283 students).
 
-- title: Experience
+- title: Academic Appointments
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoctoral Researcher
+      institution: Department of Computer Science, University of Virginia, USA
+      year: Feb. 2025 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Advisor – Prof. Haiying Shen.
+        - Superchip-based LLM infrastructure, including zero-copy KV-cache offloading and MoE expert streaming over NVLink-C2C.
+        - Ongoing work on serverless LLM serving on MIG-partitioned GPUs.
+    - title: Postdoctoral Researcher
+      institution: Department of Computer Science, Yale University, USA
+      year: Jun. 2023 – Jan. 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Advisors – Prof. Lin Zhong and Prof. Anurag Khandelwal (Efficient Computing Lab).
+        - RDMA-based distributed shared memory (DSM) runtime for fine-grained, latency-sensitive ML pipelines.
+        - Explored software-defined cache coherence and global address space design for CPU and cross-GPU-node settings.
+    - title: Research Assistant
+      institution: University of Macau, Macau SAR, China
+      year: Apr. 2021 – May 2023
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Cloud and Distributed Systems Lab.
+        - Workload prediction and QoS-aware resource management for large-scale microservices in shared clusters.
+    - title: Research Intern
+      institution: Alibaba Cloud, Hangzhou, China
+      year: Nov. 2018 – Jan. 2023
+      description:
+        - Analyzed large-scale microservice traces and designed resource management systems for online shopping applications during the Double 11 festival.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Alibaba Microservices Cluster Traces (v2021, v2022)
+      year: 2021–2022
+      description: >
+        Released two large-scale microservices traces from Alibaba Cloud (100GB v2021 and 2TB v2022),
+        widely used by industry and academic groups for microservice research.
+    - title: Erms – Efficient Resource Management for Shared Microservices
+      year: 2023–now
+      description: >
+        Open-source microservice resource management system (Erms) with QoS-aware scheduling;
+        awarded ACM artifact badges for availability, functionality, and reproducibility.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - China Computer Federation (CCF) Computer Architecture Outstanding Ph.D. (5 awarded annually).
+        - Chinese Academy of Sciences Outstanding Ph.D. (first recipient in 16 years at SIAT, CAS).
+        - IEEE Technical Community on Scalable Computing (TCSC) Outstanding Ph.D.
+        - Alibaba Star Offer (P7 level, highest offer for Ph.D. graduates; fewer than 10 awarded annually).
+    - year: 2021
       items:
-        - Max Planck Medal
+        - ACM SoCC 2021 Best Paper Award.
+        - Outstanding Science Research Intern, Alibaba Cloud (12 interns awarded).
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: AI Infrastructure and Systems for ML
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - LLM and MoE serving on heterogeneous CPU–GPU platforms, including NVIDIA Superchips and MIG-partitioned GPUs.
+        - Hierarchical memory systems, zero-copy KV-cache offloading, and interconnect-aware runtimes.
+    - title: Cloud-Native Microservices and Serverless Platforms
       items:
-        - Description 1.
-        - Description 2.
+        - QoS-aware, scalable resource management for large-scale microservice and serverless workloads in production data centers.
+        - Workload prediction, autoscaling, and performance isolation under dynamic and bursty traffic.
+    - title: RDMA- and DSM-Based Systems
+      items:
+        - RDMA-based distributed shared memory (DSM) as shared infrastructure for fine-grained, latency-sensitive pipelines.
+        - Cross-node and cross-GPU memory systems using GPU-direct RDMA and global address space abstractions.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Reading, traveling, and exploring local food and culture.

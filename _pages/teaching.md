@@ -2,11 +2,72 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+# description: Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+I enjoy teaching core systems topics and connecting them to modern AI and cloud workloads.  
+My teaching so far has focused on **cloud computing, distributed systems, and AI systems infrastructure**.
 
-Organize your courses by years, topics, or universities, however you like!
+---
+
+## Teaching interests
+
+- Distributed systems  
+- Cloud computing, cloud-native microservices, and serverless platforms  
+- AI systems and infrastructure for large-scale LLM / MoE workloads  
+- Computer architecture and GPU-centric systems from a software perspective  
+
+---
+
+## Course and lecture experience
+
+### University of Virginia
+
+**Guest lectures on Cloud-Native Computing and Microservices**  
+Department of Computer Science, University of Virginia, 2025  
+
+- Designed and delivered lectures on:
+  - Cloud-native architecture and microservices in production data centers  
+  - Workload characteristics and QoS-aware resource management  
+  - Case studies based on Alibaba microservice traces and real systems  
+- Prepared lecture slides and an in-class quiz to help students reason about
+  microservice dependency graphs, tail latency, and resource management policies.  
+- Emphasized how ideas from microservices extend to AI/LLM serving and
+  serverless infrastructures.
+
+<!-- *(Teaching materials such as slides and quizzes will be posted here when available.)* -->
+
+---
+
+<!-- ### Yale University
+
+**Teaching support for systems courses**  
+Department of Computer Science, Yale University, 2023–2025  
+
+- Assisted with courses in:
+  - Operating Systems  
+  - Distributed Systems  
+- Helped design and review programming assignments related to resource
+  management, concurrency, and fault tolerance.  
+- Advised students on applying systems concepts to modern AI and data-center
+  workloads.
+
+--- -->
+
+## Mentoring
+
+I have also been actively involved in mentoring students and collaborators:
+
+- Mentored research interns and junior students on:
+  - Resource management for large-scale microservices  
+  <!-- - RDMA-based distributed shared memory systems   -->
+  - Serverless for diffusion model
+- Guided mentees through the full research cycle: problem formulation,
+  system design and implementation, experimentation, and paper writing.
+
+---
+
+If you are a student interested in **AI infrastructure, systems for ML**, feel free to contact me about potential
+research projects or independent study opportunities.
