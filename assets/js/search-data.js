@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/niewuya.io/publications/";
           },
+        },{id: "nav-awards",
+          title: "Awards",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/niewuya.io/awards/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
@@ -116,7 +123,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/niewuya.io/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/niewuya.io/assets/pdf/ShutianCV.pdf", "_blank");
         },
       },{
         id: 'social-email',
