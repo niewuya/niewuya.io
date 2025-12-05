@@ -1,4 +1,14 @@
-Shutian Luo is a Postdoctoral Researcher in Computer Science at the University of Virginia. His research focuses on AI infrastructure and systems for machine learning, spanning cloud-native microservices, RDMA-based distributed shared memory, and GPU-centric LLM and MoE serving on NVIDIA Superchips and MIG-partitioned GPUs. His work has been published in ACM SoCC, ASPLOS, ISCA, ACM TOCS, and IEEE TPDS, and has received honors such as the SoCC 2021 Best Paper Award, the CCF Computer Architecture Outstanding Ph.D. Award, and the Chinese Academy of Sciences Outstanding Ph.D. Award.
+Shutian Luo is currently a Postdoctoral Researcher in the Department of Computer Science at the University of Virginia, working with Prof. Haiying Shen. He received his Ph.D. in Computer Application Technology from the University of Chinese Academy of Sciences in 2023, and was previously a Postdoctoral Associate at Yale University working with Prof. Lin Zhong and Prof. Anurag Khandelwal. He also spent time as a Research Assistant in the Cloud and Distributed Systems Lab at the University of Macau and as a Research Intern at Alibaba Cloud.
+
+His research lies at the intersection of AI infrastructure, distributed systems, and computer architecture, with a focus on building efficient systems for large-scale machine learning. He works on cloud-native microservices, RDMA-based distributed shared memory (DSM), and GPU-centric systems for LLM and MoE serving on NVIDIA Superchips and MIG-partitioned GPUs.
+
+Systems for LLMs and MoE on Superchips: zero-copy KV-cache offloading, asymmetric CUDA kernels, on-demand expert streaming, and serverless LLM runtimes.
+Cloud-native microservices: predictive autoscaling, SLA-aware resource management, and large-scale trace–driven analysis in shared clusters.
+RDMA/DSM systems: performance–transparency trade-offs for data-parallel workloads on RDMA-connected, distributed shared memory clusters.
+
+He has published at venues such as ACM SoCC, ASPLOS, ISCA, ACM TOCS, and IEEE TPDS. His work has been recognized with several honors, including the ACM SoCC 2021 Best Paper Award, the CCF Computer Architecture Outstanding Ph.D. Award, and the Chinese Academy of Sciences Outstanding Ph.D. Award.
+
+<!-- Shutian Luo is a Postdoctoral Researcher in Computer Science at the University of Virginia. His research focuses on AI infrastructure and systems for machine learning, spanning cloud-native microservices, RDMA-based distributed shared memory, and GPU-centric LLM and MoE serving on NVIDIA Superchips and MIG-partitioned GPUs. His work has been published in ACM SoCC, ASPLOS, ISCA, ACM TOCS, and IEEE TPDS, and has received honors such as the SoCC 2021 Best Paper Award, the CCF Computer Architecture Outstanding Ph.D. Award, and the Chinese Academy of Sciences Outstanding Ph.D. Award. -->
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
