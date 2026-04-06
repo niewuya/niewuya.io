@@ -9,7 +9,7 @@ profile:
   image: shutianLuo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>85 Engineer's Way</p>
+    <p>Email: ksy8xs@virginia.edu</p>
     <p>Charlottesville, VA 22903</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
